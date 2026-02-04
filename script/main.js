@@ -464,8 +464,19 @@ function conveti() {
   canvas.height = H;
   Draw();
 }
+const nineSection = document.querySelector(".nine");
+const cardBtn = document.querySelector(".card-btn");
 
-document.getElementById("cardBtn").addEventListener("click", function () {
-    window.location.href = "card.html";
-});
+const observer = new IntersectionObserver(
+    ([entry]) => {
+        if (entry.isIntersecting) {
+            cardBtn.hidden = false;
+            observer.disconnect(); // run once only
+        }
+    },
+    { threshold: 0.6 }
+);
+
+observer.observe(nineSection);
+
 
