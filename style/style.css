@@ -31,6 +31,24 @@ canvas {
     flex-direction: column;
 }
 
+#cardBtn {
+    margin-top: 25px;
+    padding: 14px 28px;
+    font-size: 18px;
+    background-color: #e63946; /* red */
+    color: #ffffff; /* white text */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    display: none; /* IMPORTANT: hidden initially */
+}
+
+#cardBtn:hover {
+    background-color: #c92f3b;
+}
+
+
 #containerzero button {
     background-color: #EA4C89;
     border-radius: 8px;
