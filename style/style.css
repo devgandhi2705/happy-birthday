@@ -31,22 +31,6 @@ canvas {
     flex-direction: column;
 }
 
-.card-btn {
-    display: inline-block;
-    margin-top: 25px;
-    padding: 14px 28px;
-    background-color: red;
-    color: white;
-    text-decoration: none; /* removes underline */
-    font-size: 18px;
-    font-family: 'Work Sans', sans-serif;
-    border-radius: 6px;
-}
-
-.card-btn:hover {
-    background-color: darkred;
-}
-
 
 
 #containerzero button {
