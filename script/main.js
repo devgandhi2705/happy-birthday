@@ -464,3 +464,8 @@ function conveti() {
   canvas.height = H;
   Draw();
 }
+
+document.getElementById("cardBtn").addEventListener("click", function () {
+    window.location.href = "card.html";
+});
+
